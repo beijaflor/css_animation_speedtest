@@ -1,0 +1,47 @@
+@import "compass" ;
+
+ul li {
+	// border:solid 1px #ccc;
+	width:20px;
+	height:600px;
+	list-style:none;
+	position:fixed;
+	top:10px;
+	left:50%;
+}
+
+// ul li:nth-child(1) {
+// 	@include rotate(10deg);
+// }
+
+@for $i from 1 through 120 { 
+	ul li:nth-child(#{$i}) {
+		@include rotate(($i*3)+deg);
+	}
+}
+
+	ul li span {
+	content:"";
+	display: block;
+	width:20px;
+	height:20px;
+	background:#33c;
+	@include border-radius(10px);
+	position:relative;
+	// -webkit-animation-iteration-count:infinite;
+	// -webkit-animation-timing-function:seas-in;
+	// -webkit-animation-duration:3s;
+	// -webkit-animation-name:top2bottom;
+}
+
+@-webkit-keyframes top2bottom {
+	0% {
+		margin-top:0;
+	}
+	50% {
+		margin-top:570px;
+	}
+	100% {
+		margin-top:0;
+	}
+}

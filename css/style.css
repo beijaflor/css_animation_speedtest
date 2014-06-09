@@ -1,0 +1,107 @@
+/* line 1, ../sass/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 8, ../sass/style.scss */
+body > p {
+  position: absolute;
+  box-sizing: border-box;
+  color: #aaa;
+  padding: 10px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/style.scss */
+.btnStart {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  padding: 10px 30px;
+  width: 80px;
+  text-align: center;
+  border: solid 1px #aaa;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+/* line 30, ../sass/style.scss */
+.btnStart:hover {
+  background: #d0d0d0;
+  color: #c33;
+}
+
+/* line 35, ../sass/style.scss */
+#performanceUIIndicator {
+  display: none;
+  position: fixed;
+  right: 40px;
+  top: 20px;
+  padding: 20px 30px;
+  width: 180px;
+  text-align: center;
+  border: solid 1px #aaa;
+  background: #efefef;
+  font-size: 160%;
+}
+
+/* line 48, ../sass/style.scss */
+#performanceUI {
+  z-index: 10000;
+  position: fixed;
+  top: 105%;
+  left: 50%;
+  width: 26em;
+  margin-left: -13.5em;
+  padding: 0.5em;
+  border: 1px solid #b9b6c0;
+  background-color: #f9f9f9;
+  color: #4b4d53;
+  font-size: 0.65em;
+  line-height: 1.25em;
+}
+
+/* line 65, ../sass/style.scss */
+div div {
+  margin-top: 0.5em;
+}
+
+/* line 69, ../sass/style.scss */
+#performanceUIClose {
+  display: block;
+  position: absolute;
+  top: 0.4em;
+  right: 0.5em;
+  color: #5d6069;
+  font-size: 0.65em;
+  font-weight: bold;
+}
+
+/* line 80, ../sass/style.scss */
+#performanceUIOkay {
+  margin-top: 0.7em;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 87, ../sass/style.scss */
+#btnStart1 {
+  top: 20px;
+}
+
+/* line 90, ../sass/style.scss */
+#btnStart2 {
+  top: 70px;
+}
+
+/* line 93, ../sass/style.scss */
+#btnStart3 {
+  top: 120px;
+}

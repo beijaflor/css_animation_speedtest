@@ -1,0 +1,95 @@
+body {
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+body > p {
+	position:absolute;
+	box-sizing:border-box;
+	color:#aaa;
+	padding:10px;
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+.btnStart {
+	position:fixed;
+	left:20px;
+	top:20px;
+	padding:10px 30px;
+	width:80px;
+	text-align:center;
+	border:solid 1px #aaa;
+	background:#dfdfdf;
+	cursor:pointer;
+}
+.btnStart:hover {
+	background:#d0d0d0;
+	color:#c33;
+}
+
+#performanceUIIndicator {
+	display:none;
+	position:fixed;
+	right:40px;
+	top:20px;
+	padding:20px 30px;
+	width:180px;
+	text-align:center;
+	border:solid 1px #aaa;
+	background:#efefef;
+	font-size:160%;
+}
+
+#performanceUI {
+	z-index: 10000;
+	position: fixed;
+
+	top: 105%;
+	left: 50%;
+	width: 26em;
+	margin-left: -13.5em;
+	padding: 0.5em;
+
+	border: 1px solid #b9b6c0;
+	background-color: rgb(249, 249, 249);
+
+	color: #4b4d53;
+	font-size: 0.65em;
+	line-height: 1.25em;
+}
+div div {
+	margin-top: 0.5em;
+}
+
+#performanceUIClose {
+	display: block;
+	position: absolute;
+	top: 0.4em;
+	right: 0.5em;
+
+	color: #5d6069;
+	font-size: 0.65em;
+	font-weight: bold;
+}
+
+#performanceUIOkay {
+	margin-top: 0.7em;
+
+	text-align: center;
+	font-weight: bold;
+}
+
+#btnStart1 {
+	top:20px;
+}
+#btnStart2 {
+	top:70px;
+}
+#btnStart3 {
+	top:120px;
+}
